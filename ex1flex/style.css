@@ -1,0 +1,212 @@
+body , html{
+    height: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: stretch;
+}
+.left{
+    box-sizing: border-box;
+    width: 20%;
+    background-color: #272c4a;
+    
+    align-items: stretch;
+    
+
+    
+}
+.right{
+   
+    box-sizing: border-box;
+    width: 85%;
+    background-color: #1b203d;
+    
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    width: 100%;
+    gap: 20px;
+    /* align-items: baseline; */
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 10%;
+   
+  
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: x-large;
+    color: gray;
+    justify-content: space-between;
+    
+}
+.clickk{
+    background-color:  #1b203d;
+}
+.fc{
+    display: flex;
+    flex-direction: row;
+    gap: 800px;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 20%;
+    
+}
+
+.profile{
+    /* margin-left: auto; */
+    padding-left: 200px;
+    position: relative;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+span{
+    color: white;
+    position: absolute;
+   
+}
+.sc{
+    display: flex;
+    flex-direction: row;
+    margin-left:8px;
+    width: 100%;
+    height: 80%;
+    gap: 20px;
+    /* padding: auto; */
+    justify-content: center;
+    align-content: space-evenly;
+}
+.box
+{
+    box-sizing: border-box;
+    border: none;
+    background-color: #272c4a;
+    width: 22%;
+   
+    height: 60%;
+    
+
+}
+.number{
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 10px;
+    color: white;
+font-size: large;
+    
+}
+.small{
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 10%;
+    font-size: small;
+    padding-top: 10px;
+}
+.icon2{
+    padding-left:55%;
+    width: 20%;
+    height: 20%;
+    padding-top: 10%;
+
+}
+.m{
+    display: flex;
+    flex-direction: row;
+}
+.tc{
+    display: flex;
+    flex-direction: row;
+    margin-left:8px;
+    width: 100%;
+    height: 300vh;
+    gap: 10px;
+    /* padding: auto; */
+    justify-content: center;
+    align-content: space-evenly;
+}
+.top
+{
+    box-sizing: border-box;
+    width: 60%;
+background-color: #272c4a;
+height: 70%;
+display: flex;
+flex-direction: column;
+padding: auto;
+
+}
+.sales{
+    box-sizing: border-box;
+    width: 32%;
+    background-color: #272c4a;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.toprow{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+}
+.but{
+    box-sizing: border-box;
+    margin-left: 450px;
+    color: rgb(74, 60, 35);
+    align-content: space-evenly;
+    
+
+}
+.firstrow{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    align-content: space-evenly;
+    
+    padding-left: 10%;
+}
+.rows{
+    flex: 2; /* Make each column take equal space */
+    text-align: left; /* Align text to the left */
+     /* Add spacing between columns */
+    margin: 0;
+    color: white;
+    
+}
+.salerow{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+}
+.butt{
+    box-sizing: border-box;
+    margin-left: 140px;
+    color:  rgb(185, 54, 7);
+    align-content: space-evenly;
+    padding-right: 10px;
+    
+}
+i{
+    color: white;
+}
