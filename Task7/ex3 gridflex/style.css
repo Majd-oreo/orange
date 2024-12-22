@@ -1,0 +1,146 @@
+body{
+    height: 100%;
+    background-color: #eeeeee;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.up{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+   gap: 20px;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    gap: 10px;
+    
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    gap: 10px;
+}
+.dash, .widget, .tables, .full {
+    box-sizing: border-box;
+    width: 40%;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+    align-content: space-around;
+    gap: 10px;
+    color: white;
+
+}
+.chart{
+    width: 100%;
+    height: 60px;
+    background-color: #28b779;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.dash {
+    background-color: #27a9e3;
+}
+.element{
+    background-color: #27a9e3;
+
+}
+.widget {
+    background-color: #ffb848;
+}
+.error{
+
+    background-color: #ffb848;
+
+}
+.tables{
+    background-color: #da542e;
+}
+.full{
+    background-color: #2255a4;
+}
+
+.form{
+    width: 100%;
+    height: 60px;
+    background-color: #da542e;
+    align-content: center;
+    text-align: center;
+    color: white;
+
+}
+.button{
+    background-color: #2255a4;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.cal{
+    background-color: #28b779;
+}
+.button, .element, .cal ,.error{
+
+    box-sizing: border-box;
+    width: 40%;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+    align-content: space-around;
+    gap: 10px;
+    color: white;
+}
+.down{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    padding-bottom: 40px;
+    
+    background-color: white;
+}
+.image{
+    width:60%;
+    height: 100%;
+}
+.image>img{
+    width: 100%;
+    height: 400px;
+}
+.gridright{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 35%;
+    height: auto;
+}
+.all{
+     margin-top: 40px;
+    margin-left: 10px; 
+    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
+    box-sizing: border-box;
+    background-color: #343a40;
+    width: 250px;
+    height: 15vh;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+span{
+    font-size: x-small;
+}

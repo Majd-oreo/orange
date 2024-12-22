@@ -1,0 +1,79 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%); /* Two equal columns */
+    width: 100%;
+    height: 80%;
+    grid-gap: 0; /* Remove any gaps between items */
+}
+
+.left {
+    padding-left: 20px;
+    height: 100%;
+    background-image: url("Untitled design (2).png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-rows: auto auto auto; /* Three rows for your content */
+    grid-gap: 0; /* Remove gaps between items */
+}
+
+.right > div:nth-child(1) {
+    grid-column: 1 / 2; /* Place the first image in the first column */
+    grid-row: 1; /* Place it in the first row */
+}
+
+.extra {
+    grid-column: 2 / 3; /* Place 'extra' div in the first column */
+    grid-row: 1; /* Place it in the second row */
+    background-color: #44bbe6;
+    color: white;
+   padding: 15px;
+}
+
+.green {
+    grid-column: 1 / 2; /* Place 'green' div in the second column */
+    grid-row: 2; /* Place it in the second row */
+    background-color: #29b36e;
+    padding: 15px;
+}
+
+.right > div:nth-child(4) {
+    grid-column: 2 / 3; /* Span the entire width */
+    grid-row: 2; /* Place it in the third row */
+    text-align: center;
+}
+.right > .explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    align-content: flex-start;
+    border: 1 solid white;
+    width: 5%;
+    background-color: white;
+
+}
+
+footer{
+    height: 20%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 8px;
+}
+button{
+    width: 100%;
+    height: 100%;
+    font-size: 34px;
+    border: none;
+    
+}
